@@ -1,6 +1,6 @@
 A3W extDB3 MySQL instructions
 
- 1. Extract everything from A3W_extDB3_pack.zip to your Arma 3 root directory, where arma3server is normally located
+ 1. Extract everything from this archive to your Arma 3 root directory, where arma3server is normally located
  2. Run the a3wasteland_db SQL script on your MySQL server
  3. Open @extDB3\extdb3-conf.ini and put your MySQL infos in the [A3W] section
  4. Add -filePatching -serverMod=@extDB3 to your arma3server command line, and allowedFilePatching = 1; to your server.cfg
