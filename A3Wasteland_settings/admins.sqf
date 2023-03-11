@@ -30,5 +30,5 @@ highAdmins =
 // Server Owners: access to everything, including god mode, money, guns, and vehicles
 serverOwners = 
 [
-	// Put player UIDs here
+	"76561198046508034" // sheidyj514
 ];
