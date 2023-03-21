@@ -17,7 +17,7 @@ A3W_timeMultiplierNight = 5.0;     // Sets the speed of time between 8 PM and 5 
 A3W_moonLight = 1;                 // Moon light during night (0 = no, 1 = yes)
 
 // Player settings
-A3W_startingMoney = 5000;           // Amount of money that players start with
+A3W_startingMoney = 25000;           // Amount of money that players start with
 A3W_survivalSystem = 0;            // Food and water are required to stay alive (0 = no, 1 = yes) - 0 removes food and water items from the mission
 A3W_unlimitedStamina = 1;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
 A3W_bleedingTime = 5*60;             // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
@@ -168,8 +168,8 @@ CR_noAutoLand = 1;				    // Turn off Autopilot in planes (0 = no, 1 = yes)
 CR_basePerimeter = 60;				// Base Locker radius in meters (50m default)
 
 //Mission Reward Money Amounts
-Tier_1_Reward = 5000;				//Default $5,000
-Tier_2_Reward = 10000;				//Default $10,000
-Tier_3_Reward = 15000;				//Default $15,000
-Tier_4_Reward = 25000;				//Default $25,000
-Tier_5_Reward = 40000;				//Default $40,000
+Tier_1_Reward = 10000;				//Default $5,000
+Tier_2_Reward = 20000;				//Default $10,000
+Tier_3_Reward = 30000;				//Default $15,000
+Tier_4_Reward = 50000;				//Default $25,000
+Tier_5_Reward = 80000;				//Default $40,000
