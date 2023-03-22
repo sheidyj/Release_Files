@@ -30,6 +30,6 @@ highAdmins =
 // Server Owners: access to everything, including god mode, money, guns, and vehicles
 serverOwners = 
 [
-	"76561198046508034" // sheidyj514
+	"76561198046508034", // sheidyj514
 	"76561198001071509" // Demonicpunguin
 ];
