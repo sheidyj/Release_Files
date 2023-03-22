@@ -31,4 +31,5 @@ highAdmins =
 serverOwners = 
 [
 	"76561198046508034" // sheidyj514
+	"76561198001071509" // Demonicpunguin
 ];
