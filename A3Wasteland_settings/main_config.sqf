@@ -31,7 +31,7 @@ A3W_spawnBeaconSpawnHeight = 0; // Altitude in meters at which players will spaw
 
 // Antihack settings
 A3W_antiHackUnitCheck = 1;         // Detect players who spawn unauthorized AI units (0 = no, 1 = yes) - disable if you have custom unit scripts/mods like AI recruitment or ALiVE
-A3W_antiHackMinRecoil = 1.0;       // Mininum recoil coefficient enforced by the antihack (recommended values: default = 1.0, TMR Mod = 0.5, VTS Weapon Resting = 0.25) (minimum: 0.02)
+A3W_antiHackMinRecoil = 0.05;       // Mininum recoil coefficient enforced by the antihack (recommended values: default = 1.0, TMR Mod = 0.5, VTS Weapon Resting = 0.25) (minimum: 0.02)
 
 // Store settings
 A3W_showGunStoreStatus = 1;        // Show enemy and friendly presence at gunstores on map (0 = no, 1 = yes)
@@ -143,15 +143,15 @@ A3W_missionsDifficulty = 0;        // Missions difficulty (0 = normal, 1 = hard)
 A3W_missionFarAiDrawLines = 1;     // Draw small red lines on the map from mission markers to individual units & vehicles which are further away than 75m from the objective (0 = no, 1 = yes)
 A3W_missionsQuantity = 6;          // Number of missions running at the same time (0 to 6)
 A3W_heliPatrolMissions = 1;        // Enable missions involving flying helicopters piloted by AI (0 = no, 1 = yes)
-A3W_underWaterMissions = 1;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
+A3W_underWaterMissions = 0;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
 A3W_mainMissionDelay = 5*60;      // Time in seconds between Main Missions
 A3W_mainMissionTimeout = 60*60;    // Time in seconds that a Main Mission will run for, unless completed
 A3W_sideMissionDelay = 10*60;       // Time in seconds between Side Missions
-A3W_sideMissionTimeout = 45*60;    // Time in seconds that a Side Mission will run for, unless completed
+A3W_sideMissionTimeout = 60*60;    // Time in seconds that a Side Mission will run for, unless completed
 A3W_moneyMissionDelay = 20*60;     // Time in seconds between Money Missions
 A3W_moneyMissionTimeout = 60*60;   // Time in seconds that a Money Mission will run for, unless completed
 A3W_AirMissionDelay = 25*60;       // Time in seconds between Air Missions 25*60
-A3W_AirMissionTimeout = 45*60;     // Time in seconds that a Air Mission will run for, unless completed
+A3W_AirMissionTimeout = 30*60;     // Time in seconds that a Air Mission will run for, unless completed
 A3W_PriorityMissionDelay = 30*60;  // Time in seconds between Priority Missions 30*60
 A3W_PriorityMissionTimeout = 60*60;// Time in seconds that a Priority Mission will run for, unless completed
 
